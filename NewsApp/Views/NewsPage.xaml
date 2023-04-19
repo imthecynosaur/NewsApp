@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Shell.NavBarHasShadow="False"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#1D2229"
+             x:Class="NewsApp.Views.NewsPage"
+             Title="NewsPage">
+    <Grid RowDefinitions="auto, *">
+        
+        <!--Section 1-->
+        <Grid ColumnDefinitions="*, 40">
+            <SearchBar Placeholder="Search"
+                       BackgroundColor="#1D2229"
+                       PlaceholderColor="#DADBCD"
+                       Margin="10"/>
+
+        </Grid>
+
+        <!--Section 2-->
+
+    </Grid>
+</ContentPage>
